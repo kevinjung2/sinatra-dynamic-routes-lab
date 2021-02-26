@@ -1,0 +1,12 @@
+<%one = params[:number1].to_i%>
+<%two = params[:number2].to_i%>
+<%op = params[:operation]%>
+<%if op == "add"%>
+  <%=one + two%>
+<%elsif op == "subtract"%>
+  <%=one - two%>
+<%elsif op == "multiply"%>
+  <%=one * two%>
+<%elsif op == "divide"%>
+  <%=one / two%>
+<%end%>
